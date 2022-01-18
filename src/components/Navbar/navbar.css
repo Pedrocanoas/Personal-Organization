@@ -1,7 +1,24 @@
 .navbar {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 8px;
-  color: white;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 2vh;
+  color: rgb(0, 0, 0);
   font-weight: bold;
+  height: 5vh;
+}
+
+.corner{
+  display: flex;
+  vertical-align: middle;
+}
+
+.flipLogo{
+  max-height: 5vh;
+}
+
+.title-navbar{
+  padding-left: 2vh;
+  font-size: 1.5em;
 }

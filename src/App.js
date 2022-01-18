@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 import Navbar from "./components/Navbar/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
 import TaskList from "./components/TaskList/TaskList";
 
 let idAcc = 0;
