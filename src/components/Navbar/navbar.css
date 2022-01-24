@@ -3,15 +3,15 @@
   flex-direction: row;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  padding: 2vh;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  height: 5vh;
+  height: 50px;
 }
 
 .corner{
   display: flex;
   vertical-align: middle;
+  margin:1.5vh
 }
 
 .flipLogo{

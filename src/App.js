@@ -46,6 +46,7 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
+      <Sidebar/>
       <div className="container">
         <TaskList
           title="Pendente"

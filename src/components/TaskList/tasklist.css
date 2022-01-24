@@ -1,7 +1,10 @@
 .tasklist {
   padding: 8px;
-  background-color: #5797b9;
-  border-radius: 2px;
+  background-color: #bbbbbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 
 .tasklist .title {
@@ -33,12 +36,12 @@
   border: none;
   border-radius: 3px;
   color: white;
-  background: #00b8d4;
+  background: #a3a3a3;
   transition: background-color 0.3s;
 }
 
 .tasklist .btn:hover {
-  background-color: #0091a8;
+  background-color: #818181;
   cursor: pointer;
 }
 
