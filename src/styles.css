@@ -8,12 +8,20 @@
 }
 
 .App {
-  background-color: #d8d8d8;
+  background-image: linear-gradient(#FEF200,#273796, #273796);
   height: 100vh;
   width: 100vw;
   color: white;
+  text-align: center;
+  object-fit: contain;
 }
 
+.Logotipo{
+  max-width: auto;
+  max-height: 100px;
+  padding: 20px;
+}
+/* 
 .App .container {
   width: 100%;
   max-width: 800px;
@@ -22,4 +30,4 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 8px;
-}
+} */
