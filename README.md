@@ -2,7 +2,7 @@
 
 ## Designed to improve your day to day with quick information and good usability
 
-![Badge](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge) ![Badge](https://img.shields.io/badge/node-v16.13.2-blue?style=for-the-badge) ![Badge](https://img.shields.io/badge/develop_progress-05%-green?style=for-the-badge)
+![Badge](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge) ![Badge](https://img.shields.io/badge/node-v16.13.2-blue?style=for-the-badge) ![Badge](https://img.shields.io/badge/develop%20progress-05%25-green?style=for-the-badge)
 
 <p align="center">  <a href="#About">About</a> • <a href="#Installation">Installation</a> • <a href="#Technologies">Technologies</a> • <a href="#License-a">License</a> • <a href="#Autor">Autor</a>  </p>
 
