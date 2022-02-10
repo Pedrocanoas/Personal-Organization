@@ -1,8 +1,10 @@
 # Personal Organization
 
 ## Designed to improve your day to day with quick information and good usability
-
+ <div align="center">
+ 
 ![Badge](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge) ![Badge](https://img.shields.io/badge/node-v16.13.2-blue?style=for-the-badge) ![Badge](https://img.shields.io/badge/develop%20progress-05%25-green?style=for-the-badge)
+</div>
 
 <p align="center">  <a href="#About">About</a> • <a href="#Installation">Installation</a> • <a href="#Technologies">Technologies</a> • <a href="#License-a">License</a> • <a href="#Autor">Autor</a>  </p>
 
@@ -49,7 +51,7 @@ $ npm run start
  * [Autor](#Autor)
  <div align="center">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51349076?v=4" width="100px;" alt=""/>
- <sub><h1>Pedro Canôas</h1></sub></a> <a href="https://github.com/Pedrocanoas" title="Github">🚀</a>
+ <a><h1>Pedro Canôas</h1></a> <a href="https://github.com/Pedrocanoas" title="Github">🚀</a>
 
 Feito com ❤️ por Pedro Canôas 👋🏽 Entre em contato! || Made with ❤️ by Pedro Canôas 👋🏽 contact me!
 
