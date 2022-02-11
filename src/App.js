@@ -1,9 +1,20 @@
 import React, { useState } from "react";
 import "./styles.css";
 import Logotipo from "./img/Logotipo.png";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+
+const styles = {
+  mediumIcon: {
+    width: 45,
+    height: 45,
+    cursor:'pointer'
+  },
+};
 
 export default function App() {
   const [passwordView, setPasswordView] = useState(false);
@@ -39,7 +50,7 @@ export default function App() {
             <input
               className="username-input"
               type="text"
-              value="email@gmail.com"
+              defaultValue="email@gmail.com"
             ></input>
           </div>
           <div className="password">
@@ -55,12 +66,23 @@ export default function App() {
             <input
               className="password-input"
               type={passwordView ? "text" : "password"}
-              value="senha123"
+              defaultValue="senha123"
             ></input>
           </div>
           <div className="end-square">
-            <h5>Esqueci minha senha</h5>
-            <h5>cadastrar</h5>
+            <div className="footer">
+              <a href="forgot-password" className="forgot">
+                Esqueci minha senha
+              </a>
+              <a href="sign-in" className="singin">
+                cadastrar
+              </a>
+            </div>
+            <div className="icons">
+              <FacebookIcon style={styles.mediumIcon} />
+              <LinkedInIcon style={styles.mediumIcon} />
+              <GitHubIcon style={styles.mediumIcon} />
+            </div>
           </div>
         </div>
       </div>

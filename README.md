@@ -51,7 +51,7 @@ $ npm run start
  * [Autor](#Autor)
  <div align="center">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51349076?v=4" width="100px;" alt=""/>
- <a><h1>Pedro Canôas</h1></a> <a href="https://github.com/Pedrocanoas" title="Github">🚀</a>
+ <a><h1>Pedro Canôas</h1> <a href="https://github.com/Pedrocanoas" title="Github">🚀</a></a>
 
 Feito com ❤️ por Pedro Canôas 👋🏽 Entre em contato! || Made with ❤️ by Pedro Canôas 👋🏽 contact me!
 
