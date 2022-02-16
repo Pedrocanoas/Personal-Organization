@@ -31,8 +31,9 @@
 .square {
   background-color: #4d4d4d;
   width: 70vh;
-  height: 47vh;
+  height: 55vh;
   border-radius: 30px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.7);
 }
 
 .infos {
@@ -45,8 +46,9 @@
 .username, .password {
   display: grid;
   grid-template-columns: 25px 250px;
+  grid-template-rows: 40px 15px;
   grid-column-gap: 1vh;
-  padding-top: 5vh;
+  padding-top: 4vh;
   align-items: center;
 }
 
@@ -59,21 +61,39 @@
   height: 4vh;
 }
 
-.username-input:hover, .password-input:hover {
+.username-input:hover, .password-input:hover, .username-input:focus, .password-input:focus {
   box-shadow: inset 0px 0.3em 0.3em #b4b4b4;
 }
 
-.username-input:focus, .password-input:focus {
-  box-shadow: inset 0px 0.3em 0.3em #b4b4b4;
+.submit {
+  border-radius: 5px;
+  border: none;
+  padding: 1vh 5vh;
+  margin: 2vh;
+  transition: background-color 0.4s ease-in-out;
+  background-color: #ffffff;
 }
 
+
+.form-error {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  color:#fc3131;
+  font-size: 0.7em;
+}
+
+.submit:hover {
+  background-color: #F87618;
+  cursor: pointer;
+}
 
 .end-square {
   width: 75%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 50px;
-  margin: 1vh 0;
+  grid-auto-rows: 25px;
 }
 
 .footer {
@@ -81,7 +101,7 @@
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 1;
-  padding: 2vh;
+  padding: 0vh 2vh;
   display: flex;
   flex-direction: row;
   text-align: space-between;
@@ -91,21 +111,20 @@
 .forgot, .singin {
   font-size: 0.8em;
   color: #ffffff;
-  transition: 0.1s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .forgot:hover, .singin:hover {
   color: #F87618;
 }
 
-.icons{
+.icons {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
-  padding: 0 8vh;
+  padding: 0vh 8vh;
   display: flex;
   flex-direction: row;
-  text-align: space-between;
   justify-content: space-between;
 }
