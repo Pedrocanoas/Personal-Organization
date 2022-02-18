@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Modal from "./components/Modal/Modal";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as yup from "yup";
 import "./styles.css";
@@ -22,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function App() {
   const classes = useStyles();
+  const [isModalVisible, setIsModalVisible] = useState(false);
   const [passwordView, setPasswordView] = useState(false);
   const [iconView, setIconView] = useState({
     cursor: "pointer",
@@ -109,9 +111,18 @@ export default function App() {
                   <a href="forgot-password" className="forgot">
                     Esqueci minha senha
                   </a>
-                  <a href="sign-in" className="singin">
+                  <a
+                    //href="sign-in"
+                    className="singin"
+                    onClick={() => setIsModalVisible(true)}
+                  >
                     cadastrar
                   </a>
+                  {isModalVisible ? (
+                    <Modal onClose={() => setIsModalVisible(false)}>
+                      <h2>Cadastre-se</h2>
+                    </Modal>
+                  ) : null}
                 </div>
                 <div className="icons">
                   <FacebookIcon className={classes.mediumIcon} />

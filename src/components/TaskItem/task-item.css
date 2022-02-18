@@ -1,18 +1,18 @@
 .task-item {
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 0.188rem;
   box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
   cursor: pointer;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   width: 100%;
-  padding: 8px 4px;
+  padding: 0.5rem 0.25rem;
   color: #222;
-  font-size: 14px;
+  font-size: 10.25rem;
 }
 
 .task-item input[type="text"] {
   border: none;
-  font-size: 14px;
+  font-size: 10.25rem;
   display: block;
   width: 100%;
 }
@@ -20,5 +20,5 @@
 .task-item select {
   display: block;
   width: 100%;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }

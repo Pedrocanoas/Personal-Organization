@@ -65,6 +65,15 @@
   box-shadow: inset 0px 0.3em 0.3em #b4b4b4;
 }
 
+.form-error {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  color: #fc3131;
+  font-size: 0.7em;
+}
+
 .submit {
   border-radius: 5px;
   border: none;
@@ -72,16 +81,6 @@
   margin: 2vh;
   transition: background-color 0.4s ease-in-out;
   background-color: #ffffff;
-}
-
-
-.form-error {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  color:#fc3131;
-  font-size: 0.7em;
 }
 
 .submit:hover {
